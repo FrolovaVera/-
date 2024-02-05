@@ -1,0 +1,102 @@
+.modal1 {
+    display:block; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 70px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант  */
+    background-color: rgba(0,0,0,0.6); /*Черный с непрозрачностью */
+  }
+
+  .modal-content1{
+    width: 1245px;
+    height: 500px;
+    background-color: #F0F2EF;
+    margin:-10px auto;
+  }
+
+  .close1 {
+    color: #275044;
+    margin-left: 1220px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #689286;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .main-add-dev{
+    width: 415px;
+    height: 415px;
+    margin-top: -30px;
+  }
+
+  .passport-add-dev{
+    width: 415px;
+    height: 415px;
+    margin-top: -495px;
+    margin-left: 465px;
+  }
+
+  .other-add-dev{
+    width: 415px;
+    height: 415px;
+    margin-top: -430px;
+    margin-left: 880px;
+  }
+
+  .pre-dev{
+    width: 180px;
+    height: 415px;
+   
+  }
+
+  .input-dev{
+    width: 235px;
+    height: 415px;
+    
+    margin-top: -415px;
+    margin-left: 180px;
+  }
+
+  .add-pre{
+    margin-left: 10px;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add-input{
+    width: 225px;
+    height: 25px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selectfilter{
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.add-btn{
+  width: 230px;
+  height: 40px;
+  background-color:#275044 ;
+  margin-top: 10px;
+  margin-left: 180px;
+  color: #F0F2EF;
+  font-size: 28px;
+  border-width: 1px;
+  border-color:#275044;
+  border-width: 1px;
+  border-radius: 25px;
+}

@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:#F0F2EF ;
+    padding-top: 20px; 
+  }
+
+.list-dev{
+    width: 770px;
+    height: 570px;
+    background-color:#F0F2EF ;
+    margin:-10px auto;
+    overflow: auto;
+}
+.list-dev::-webkit-scrollbar {
+    width: 0;
+  }
+
+.add-dev{
+    width: 770px;
+    height: 70px;
+    background-color:#F0F2EF ;
+    margin:-10px auto;
+}
+
+.form-dev{
+    width: 720px;
+    height: 250px;
+    background-color:#275044 ;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 20px 5px rgb(136, 134, 134);
+    border-radius: 25px;
+}
+
+.main-info{
+    width: 240px;
+    height: 200px;
+    background-color:#ffffff ;
+    border-radius: 0 0 0 25px;
+    padding-top: 10px;
+    border: #275044;
+    border-style: solid none none none;
+}
+
+.pasport-info{
+    width: 240px;
+    height: 200px;
+    background-color:#ffffff ;
+    margin-left: 240px;
+    margin-top: -213px;
+    padding-top: 10px;
+    border: #275044;
+    border-style: solid solid none solid;
+}
+
+.other-info{
+    width: 235px;
+    height: 200px;
+    background-color:#ffffff ;
+    margin-left: 486px;
+    margin-top: -213px;
+    border-radius: 0  0  25px 0;
+    padding-top: 10px;
+    border: #275044;
+    border-style: solid none none none;
+}
+
+.main-pre{
+    margin-left: 10px;
+    line-height: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.addClient-btn{
+    width: 240px;
+    height: 40px;
+    background-color:#275044 ;
+    color: #F0F2EF;
+    font-size: 26px;
+    margin-left: 265px;
+    border-width: 1px;
+    border-color:#275044;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.addClient-btn:hover{
+    background-color: #F0F2EF;
+    color: #275044;
+  }
+
+  .deleteClient-btn{
+    width: 70px;
+    height: 30px;
+    background-color:#F0F2EF ;
+    margin-left: 550px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    
+    border-width: 1px;
+    border-color:#275044;
+    border-width: 1px;
+
+  }
+
+  .deleteClient-btn:hover{
+    background-color: #275044;
+    color: #F0F2EF;
+  }
+
+  .editClient-btn{
+    width: 70px;
+    height: 30px;
+    background-color:#F0F2EF ;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color:#275044;
+    border-width: 1px;
+  }
+
+  .editClient-btn:hover{
+    background-color: #275044;
+    color: #F0F2EF;
+  }
